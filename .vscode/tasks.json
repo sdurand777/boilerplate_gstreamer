@@ -9,7 +9,8 @@
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
-                "`pkg-config", "--cflags", "--libs", "gstreamer-1.0`"
+                "`pkg-config", "--cflags", "--libs", "gstreamer-1.0`",
+                "-g"
             ],
             "group": {
                 "kind": "build",
